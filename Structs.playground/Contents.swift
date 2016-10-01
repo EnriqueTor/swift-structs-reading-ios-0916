@@ -18,7 +18,7 @@ class Person_ {
 let jim = Person_(firstName: "Jimbo", lastName: "Guiseppe")
 print(jim.fullName)
 jim.goForARun()
-
+ 
 
 struct Person {
     let firstName: String
@@ -91,7 +91,7 @@ func fillMug_(mug: Mug_) {
 
 let myMug_ = Mug_()
 print(myMug_.amountOfCoffee)
-fillMug_(myMug_)
+fillMug_(mug: myMug_)
 print(myMug_.amountOfCoffee)
 
 
